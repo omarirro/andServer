@@ -1,0 +1,24 @@
+{
+    "name": "ticketme",
+    "version": "1.0.0",
+    "description": "Application pour gestion des tickets digitaux",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "canvas": "^2.7.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "http": "0.0.1-security",
+        "images": "^3.2.3",
+        "merge-images": "^2.0.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.7",
+        "qrencode_mini": "^0.0.1"
+    }
+}
